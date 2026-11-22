@@ -4,16 +4,9 @@ A responsive React + Vite portfolio with a dark/light theme, subtle CSS 3D-inspi
 
 ## 1. Requirements
 
-- Node.js 22 or newer (recommended)
-- npm (included with Node.js)
-- VS Code or another code editor
-
-Check your installation:
-
-```bash
-node -v
-npm -v
-```
+- Node.js 26
+- npm 11 (included with Node.js)
+- Intellij IDEA
 
 ## 2. Run locally
 
@@ -24,7 +17,7 @@ npm install
 npm run dev
 ```
 
-Open the local address printed by Vite, normally `http://localhost:5173`.
+Open the local address printed by Vite: `http://localhost:5173`.
 
 Stop the development server with `Ctrl + C`.
 
@@ -52,7 +45,6 @@ Review these items in `src/App.jsx`:
 
 The CV shown by the résumé button is `public/Nguyen-Minh-Tuan-CV.pdf`. Replace it with an updated PDF using the same filename, or update the link in `src/App.jsx`.
 
-The LinkedIn URL was not present in the supplied résumé, so a LinkedIn link has intentionally not been fabricated or added.
 
 ## 5. Publish with Netlify (simple option)
 
