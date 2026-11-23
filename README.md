@@ -1,61 +1,133 @@
-# Nguyen Minh Tuan — Developer Portfolio
+# Nguyen Minh Tuan
 
-A responsive React + Vite portfolio with a dark/light theme, subtle CSS 3D-inspired hero artwork, project showcases, and a résumé download.
+<p align="center">
+  <img src="https://img.shields.io/badge/Portfolio-Live-8B8BFF?style=flat-square" alt="Portfolio Live" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
+</p>
 
-## 1. Requirements
+<p align="center">
+  <strong>IT Student · Aspiring Software Developer</strong>
+</p>
 
-- Node.js 26
-- npm 11 (included with Node.js)
-- Intellij IDEA
+<p align="center">
+  A personal portfolio built to showcase my background, technical skills, selected projects, and journey in software development.
+</p>
 
-## 2. Run locally
+<p align="center">
+  <a href="https://nguyen-minh-tuan-portfolio.netlify.app">Live Portfolio</a>
+  ·
+  <a href="https://github.com/darkizzzlaid2006">GitHub Profile</a>
+</p>
 
-Open a terminal in this project folder and run:
+---
+
+## About
+
+I'm an Information Technology student at **VNU University of Engineering and Technology**, interested in software engineering and building practical applications.
+
+This portfolio serves as a personal space to present my work, explore modern web technologies, and continuously improve my development skills.
+
+## Portfolio
+
+| Section | Description |
+|---|---|
+| About | Introduction and background |
+| Skills | Technologies and tools I work with |
+| Projects | Selected personal and academic projects |
+| Résumé | Downloadable CV |
+| Contact | Ways to get in touch |
+
+## Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,js,html,css,git,github" alt="Technology Stack" />
+</p>
+
+| Technology | Role |
+|---|---|
+| React | Component-based UI development |
+| JavaScript | Frontend logic and interactivity |
+| Vite | Development environment and production bundler |
+| HTML5 / CSS3 | Structure, styling, responsive layout, animations |
+| Git / GitHub | Version control and source code management |
+| Netlify | Hosting and continuous deployment |
+
+## Features
+
+- Responsive layout for desktop, tablet, and mobile
+- Dark / Light theme toggle
+- Persistent theme preference
+- Smooth animations and transitions
+- Project showcase with technology details
+- CV download
+- Responsive navigation
+- Reduced-motion accessibility support
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- npm
+- Git
+
+### Clone the repository
+
+```bash
+git clone https://github.com/darkizzzlaid2006/nguyen-minh-tuan-portfolio.git
+cd nguyen-minh-tuan-portfolio
+```
+
+### Install dependencies
 
 ```bash
 npm install
+```
+
+### Start development server
+
+```bash
 npm run dev
 ```
 
-Open the local address printed by Vite: `http://localhost:5173`.
+Open the local URL provided by Vite:
 
-Stop the development server with `Ctrl + C`.
+```text
+http://localhost:5173
+```
 
-## 3. Build the production website
+## Build
+
+Create an optimized production build:
 
 ```bash
 npm run build
 ```
 
-Vite creates the deployable website in the `dist/` folder. Preview that build locally with:
+Preview the production build locally:
 
 ```bash
 npm run preview
 ```
 
-## 4. Personalize before publishing
+Production files are generated in the `dist/` directory.
 
-Review these items in `src/App.jsx`:
+## Deployment
 
-- Hero introduction and internship availability
-- About text and education details
-- Skills and their learning levels
-- Project descriptions and GitHub URLs
-- Email address and phone number
+This project is deployed with **Netlify** and connected to GitHub.
 
-The CV shown by the résumé button is `public/Nguyen-Minh-Tuan-CV.pdf`. Replace it with an updated PDF using the same filename, or update the link in `src/App.jsx`.
+| Setting | Value |
+|---|---|
+| Build command | `npm run build` |
+| Publish directory | `dist` |
+| Deployment branch | `main` |
 
+Every push to the `main` branch triggers an automatic deployment.
 
-## 5. Publish with Netlify (simple option)
-
-1. Run `npm run build`.
-2. Sign in to Netlify and choose the manual deploy / drag-and-drop option.
-3. Drag the generated `dist/` folder into the deploy area.
-4. Netlify will provide a public website URL. You can change the site name in its site settings.
-
-For future updates, edit the source files, run `npm run build` again, and upload the new `dist/` folder.
-
-## Project structure
+## Project Structure
 
 ```text
 nguyen-minh-tuan-portfolio/
@@ -67,13 +139,28 @@ nguyen-minh-tuan-portfolio/
 │   ├── main.jsx
 │   └── styles.css
 ├── index.html
-├── vite.config.js
 ├── package.json
+├── package-lock.json
+├── vite.config.js
 └── README.md
 ```
 
-## Notes
+## Contact
 
-- The 3D-like hero and project artwork are CSS illustrations, not screenshots of the original games.
-- The theme choice is saved in the browser's local storage.
-- The page supports desktop and mobile layouts and respects reduced-motion preferences.
+<p align="center">
+  <strong>Let's connect.</strong>
+  <br />
+  Open to internship opportunities, collaborations, and interesting projects.
+</p>
+
+<p align="center">
+  <a href="https://github.com/darkizzzlaid2006">GitHub</a>
+  ·
+  <a href="https://nguyen-minh-tuan-portfolio.netlify.app">Portfolio</a>
+</p>
+
+---
+
+<p align="center">
+  <sub>Designed and developed by Nguyen Minh Tuan</sub>
+</p>
