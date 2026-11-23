@@ -1,11 +1,11 @@
 # Nguyen Minh Tuan
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Portfolio-Live-8B8BFF?style=flat-square" alt="Portfolio Live" />
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
+  <img src="https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/React_DOM-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-6.0.7-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
 </p>
 
 <p align="center">
@@ -51,8 +51,18 @@ This portfolio serves as a personal space to present my work, explore modern web
 | React | Component-based UI development |
 | JavaScript | Frontend logic and interactivity |
 | Vite | Development environment and production bundler |
-| HTML5 / CSS3 | Structure, styling, responsive layout, animations |
+| HTML5 / CSS3 | Structure, styling, and responsive layout |
 | Git / GitHub | Version control and source code management |
+| Netlify | Hosting and continuous deployment |
+
+### Other Technologies & Tools
+
+| Technology | Role |
+|---|---|
+| JavaScript (ES6+) | Frontend logic and interactivity |
+| HTML5 / CSS3 | Structure, styling, responsive layout, and animations |
+| Git / GitHub | Version control and source code management |
+| npm | Package management and script execution |
 | Netlify | Hosting and continuous deployment |
 
 ## Features
